@@ -35,13 +35,13 @@ const projectsData = [
   //     "A budget tracking application to add income/expenses, visualize them in pie charts, and save data locally using Chart.js.",
   //   technologies: ["React", "Chart.js", "CSS", "localStorage"],
   // },
-  // {
-  //   image: image5,
-  //   title: "YouTube Clone",
-  //   description:
-  //     "A mini YouTube-like video player app fetching video data via YouTube API with search, thumbnails, and video playback.",
-  //   technologies: ["React", "Tailwind CSS", "YouTube API"],
-  // },
+  {
+    image: image5,
+    title: "YouTube Clone",
+    description:
+      "A mini YouTube-like video player app fetching video data via YouTube API with search, thumbnails, and video playback.",
+    technologies: ["React", "Tailwind CSS", "YouTube API"],
+  },
 ];
 
 const ProjectCard = ({ project }) => {
