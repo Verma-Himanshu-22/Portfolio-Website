@@ -6,20 +6,15 @@ import image5 from "/5.png";
 import { motion } from "framer-motion";
 
 const projectsData = [
-  {
-    image: image1,
-    title: "Portfolio Website",
-    description:
-      "A responsive personal portfolio to showcase my skills, projects, and resume. Built with React, Tailwind CSS, and deployed using Vercel.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-  },
-  {
-    image: image2,
-    title: "ToDo App",
-    description:
-      "A simple and clean task management app that allows users to add, mark complete, and delete tasks. Local storage used for persistence.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
+ 
+ {
+  image: image2,
+  title: "StudyNotion EdTech Platform",
+  description:
+    "A fully functional EdTech platform built with the MERN stack that enables students to learn and purchase courses, and instructors to create and manage educational content with integrated payments and media storage.",
+  technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Redux", "Tailwind CSS", "Razorpay", "Cloudinary"],
+},
+
  {
   image: image3,
   title: "Real-time Chat Application",
@@ -27,6 +22,13 @@ const projectsData = [
     "A full-stack chat application supporting real-time messaging with WebSockets, user authentication, and online status indicators using MERN stack.",
   technologies: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
 },
+ {
+    image: image1,
+    title: "Portfolio Website",
+    description:
+      "A responsive personal portfolio to showcase my skills, projects, and resume. Built with React, Tailwind CSS, and deployed using Vercel.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+  },
 
   // {
   //   image: image4,
@@ -35,13 +37,13 @@ const projectsData = [
   //     "A budget tracking application to add income/expenses, visualize them in pie charts, and save data locally using Chart.js.",
   //   technologies: ["React", "Chart.js", "CSS", "localStorage"],
   // },
-  {
-    image: image5,
-    title: "YouTube Clone",
-    description:
-      "A mini YouTube-like video player app fetching video data via YouTube API with search, thumbnails, and video playback.",
-    technologies: ["React", "Tailwind CSS", "YouTube API"],
-  },
+  // {
+  //   image: image5,
+  //   title: "YouTube Clone",
+  //   description:
+  //     "A mini YouTube-like video player app fetching video data via YouTube API with search, thumbnails, and video playback.",
+  //   technologies: ["React", "Tailwind CSS", "YouTube API"],
+  // },
 ];
 
 const ProjectCard = ({ project }) => {
