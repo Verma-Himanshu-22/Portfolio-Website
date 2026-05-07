@@ -1,5 +1,5 @@
 import image from "/image.jpg";
-import {motion}  from 'framer-motion'
+import { motion as Motion } from 'framer-motion'
 function Hero() {
   return (
     <div
@@ -7,7 +7,7 @@ function Hero() {
       className="px-16 flexx min-h-screen w-full items-center justify-center py-28 md:px-32"
     >
       <div className="flex   flex-col items-center justify-center gap-10 text-white">
-        <motion.div
+        <Motion.div
         
           initial={{y:-50,opacity:0}}
           animate={{y:0,opacity:1}}
@@ -18,9 +18,9 @@ function Hero() {
             alt=""
             className=" w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all   duration-300 hover:-translate-y-5 hover:shadow-2xl  hover:scale-105 hover:shadow-indigo-600 md:w-[350px] "
           />
-        </motion.div>
+        </Motion.div>
 
-          <motion.div 
+          <Motion.div 
           
               initial={{y:50,opacity:0}}
           animate={{y:0,opacity:1}}
@@ -37,7 +37,7 @@ function Hero() {
   I'm a passionate MERN stack developer skilled in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I specialize in creating clean, responsive UIs and efficient backend services. Let's turn ideas into scalable, user-friendly products together!
 </p>
 
-          </motion.div>
+          </Motion.div>
       </div>
     </div>
   );
